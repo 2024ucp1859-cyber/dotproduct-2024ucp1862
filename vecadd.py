@@ -9,7 +9,7 @@ if __name__ == "__main__":
     # Input two vectors from the user
     vec1 = list(map(float, input("Enter elements of first vector separated by spaces: ").split()))
     vec2 = list(map(float, input("Enter elements of second vector separated by spaces: ").split()))
-
+ #changes made by Arvind
     result = dot_product(vec1, vec2)
     print("Dot product:", result)
 
